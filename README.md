@@ -12,12 +12,8 @@ Before using this script, ensure that you have the following:
 
 ## Usage
 
-1. Place the batch script (`compress_bsp.bat`) in the directory containing the BSP files you want to compress.
-2. Open Command Prompt or PowerShell in the same directory.
-3. Run the script by executing the following command:
-   ```bash
-   compress_bsp.bat
-   ```
+1. Place the batch script (`compress.bat`), along with the `7za.exe`, `7zxa.dll`, and `7za.dll` executables, in the directory containing the BSP files you want to compress.
+2. Double Click the batch script to start compressing the files. 
 4. The script will start compressing each BSP file in the directory using BZip2 compression with maximum compression level and multithreading.
 5. Once the compression is complete, the script will pause, allowing you to review the output.
 
